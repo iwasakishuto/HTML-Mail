@@ -1,0 +1,25 @@
+{
+  "name": "html-mail",
+  "version": "1.0.0",
+  "description": "Using \"react email\" to easily implement HTML emails.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "email dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwasakishuto/HTML-Mail.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwasakishuto/HTML-Mail/issues"
+  },
+  "homepage": "https://github.com/iwasakishuto/HTML-Mail#readme",
+  "dependencies": {
+    "@react-email/button": "0.0.6",
+    "@react-email/html": "0.0.4",
+    "react-email": "1.7.15"
+  }
+}
