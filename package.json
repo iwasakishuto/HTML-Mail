@@ -4,8 +4,10 @@
   "description": "Using \"react email\" to easily implement HTML emails.",
   "main": "index.js",
   "scripts": {
-    "dev": "email dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "email dev --dir src/emails",
+    "exports": "email exports --dir src/emails --outDir out",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "help": "email help"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,19 @@
   "homepage": "https://github.com/iwasakishuto/HTML-Mail#readme",
   "dependencies": {
     "@react-email/button": "0.0.6",
+    "@react-email/column": "0.0.6",
+    "@react-email/components": "^0.0.2",
+    "@react-email/font": "0.0.1",
+    "@react-email/head": "0.0.4",
+    "@react-email/heading": "0.0.7",
     "@react-email/html": "0.0.4",
+    "@react-email/img": "0.0.4",
+    "@react-email/link": "0.0.4",
+    "@react-email/preview": "0.0.5",
     "react-email": "1.7.15"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.21.0",
+    "dotenv": "^16.0.3"
   }
 }
